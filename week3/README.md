@@ -1,13 +1,9 @@
-# CSOT Quant — Week 3 Alpha Research Challenge — FULL CONTEXT DOSSIER
+# CSOT Quant — Week 3 Alpha Research Challenge — Specification & Strategy Guide
 
-> **Purpose of this file:** This is a single, self-contained context document
-> compiled from *every* file in the `Week 3` repository archive. It exists so
-> that an AI assistant (Gemini) — which cannot read the original `.zip` — has
-> complete knowledge of the challenge, the data schema, the rules, the
-> evaluation math, the code API, and the deliverable formats, in order to help
-> implement and submit a strategy. Nothing from the original repo has been
-> omitted. Where the original repo *references* a file that is **not present**
-> in the archive, that is flagged explicitly (see Section 11).
+> **Overview:** Challenge documentation covering the cross-sectional alpha research
+> task, portfolio constraints, data schema, mathematical evaluation, code API, and
+> strategy implementation. Reference details for external data files are noted in
+> Section 11.
 
 ---
 
@@ -498,17 +494,10 @@ jupyter notebook notebooks/main.ipynb
 
 ---
 
-## 16. Companion files provided alongside this README
+## 16. Repository Modules & Deliverables
 
-The following original files are provided **as-is** for the assistant to read
-and edit directly (these are the templates to be updated):
+The primary modules comprising this strategy implementation are:
 
-- **`main.ipynb`** — the notebook with the placeholder `get_weights` (cell 6) to
-  be replaced; all backtest/validate/score/export plumbing intact.
-- **`utils.py`** — the backtest engine, metrics, and constraint validators
-  (reference; generally not edited).
-- **`strategy_description_template.txt`** — the strategy write-up template to
-  fill in for submission.
-
-*End of context dossier. Every file and detail in the original `Week 3` archive
-is represented above.*
+- **`notebooks/main.ipynb`** — strategy research, backtest execution loop, and constraint validation.
+- **`src/utils.py`** — simulation engine, turnover calculations, Net Sharpe metric, and portfolio validators.
+- **`strategy_description_template.txt`** — strategy specification, alpha factor thesis, and risk parameters.
