@@ -1,0 +1,11 @@
+# Data & large submissions
+submission.csv
+*.parquet
+*.parquet.gzip
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
